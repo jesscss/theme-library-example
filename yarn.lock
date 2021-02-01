@@ -31,20 +31,20 @@
     core-js-pure "^3.0.0"
     regenerator-runtime "^0.13.4"
 
-"@jesscss/css-parser@^1.0.3-alpha.4":
-  version "1.0.3-alpha.4"
-  resolved "https://registry.yarnpkg.com/@jesscss/css-parser/-/css-parser-1.0.3-alpha.4.tgz#8de225e90e2956a92f1026c721da1015c1f67955"
-  integrity sha512-2qedidI6hqA6ZFRFh4JwxHC4xAs7qynXEgH/gWrhVY5iCHeuiAHVDVP8ueQrTQyyL0oLzMlcYyZzBft/6Su2qw==
+"@jesscss/css-parser@^1.0.6-alpha.0":
+  version "1.0.6-alpha.0"
+  resolved "https://registry.yarnpkg.com/@jesscss/css-parser/-/css-parser-1.0.6-alpha.0.tgz#07bca9b887178f27de674f409a49c6750848f8a0"
+  integrity sha512-8HYnZ1wQMh6biXQCAnJ5TFVal8GYzuSu8SClMsAzFeCMVaCRSSsJ69x1Az3K6db+k0PQ1/grwsIZAi0MBAtJIg==
   dependencies:
     chevrotain "^7.1.0"
     xregexp "^4.2.4"
 
-"@jesscss/parser@^1.0.5-alpha.0":
-  version "1.0.5-alpha.0"
-  resolved "https://registry.yarnpkg.com/@jesscss/parser/-/parser-1.0.5-alpha.0.tgz#279e7b6f117065eed1a186788c98360616f5d3bc"
-  integrity sha512-u7Aq/9y4/wgq0jGS1klx0eZJzXBmHukWAUiFq2XNcVmvdP1K9zDv+H3lWBCQlLaMb2FzvoEKYH/SOf8JSxySKA==
+"@jesscss/parser@^1.0.6-alpha.0":
+  version "1.0.6-alpha.0"
+  resolved "https://registry.yarnpkg.com/@jesscss/parser/-/parser-1.0.6-alpha.0.tgz#ba9328839481c7b7ddb3fe585747e433eb25296f"
+  integrity sha512-+boONdp1otja0HBYE9QnLzUYIMxwSC7RzhJLksTScbzT50oTuW86gspuRDX0WFxK2sAT5a3g3UWsbwYSTzmzvg==
   dependencies:
-    "@jesscss/css-parser" "^1.0.3-alpha.4"
+    "@jesscss/css-parser" "^1.0.6-alpha.0"
     chevrotain "^7.1.0"
 
 "@rollup/plugin-commonjs@^17.0.0":
@@ -397,12 +397,12 @@ is-reference@^1.2.1:
   dependencies:
     "@types/estree" "*"
 
-jess@^1.0.5-alpha.0:
-  version "1.0.5-alpha.0"
-  resolved "https://registry.yarnpkg.com/jess/-/jess-1.0.5-alpha.0.tgz#e3d7229a5a166afecd27f86d7fbe4f2148f480e2"
-  integrity sha512-7PfXC7zz0pHlPnljQfbGjXu5xVOVLmGV9E8+pcQWz+lyBmI3U57f4IOvgcQ8p+Acj6KZ9jSLZ6TFehRg+iq9Fw==
+jess@^1.0.6-alpha.0:
+  version "1.0.6-alpha.0"
+  resolved "https://registry.yarnpkg.com/jess/-/jess-1.0.6-alpha.0.tgz#8f39b6cfbf27f835ddadca8f3ef0f64e99aba7ea"
+  integrity sha512-tz14onx8DY/hq7dmpSV98a6P0UnB0xQ3jJYc4bK2lbtwdJ7xs4qNWETOwlEgthLNv99hCcA7lCUFhHsbkYpz8Q==
   dependencies:
-    "@jesscss/parser" "^1.0.5-alpha.0"
+    "@jesscss/parser" "^1.0.6-alpha.0"
     "@rollup/plugin-commonjs" "^17.0.0"
     "@rollup/plugin-node-resolve" "^11.1.0"
     "@rollup/plugin-sucrase" "^3.1.0"

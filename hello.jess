@@ -1,6 +1,7 @@
 @import { config as defaultConfig } from './config.jess';
-@import hello from './hello.jess';
 
 @let config: $defaultConfig;
 
-@include hello(${config});
+.hello {
+  foo: $config.colors.value;
+}
