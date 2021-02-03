@@ -1,0 +1,7 @@
+@import { config as defaultConfig } from './config.jess';
+
+@let config: $defaultConfig;
+
+.nav {
+  color: $config.colors.value;
+}

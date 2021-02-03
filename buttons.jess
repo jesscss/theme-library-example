@@ -2,7 +2,7 @@
 
 @let config: $defaultConfig;
 
-.hello {
-  foo: $config.colors.value;
+.button {
+  color: $config.colors.value;
   border-radius: $config.buttons.borderRadius;
 }

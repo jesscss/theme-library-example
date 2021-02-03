@@ -1,5 +1,12 @@
 @import getConfig from './config.jess';
-@import hello from './hello.jess';
+@import buttons from './buttons.jess';
+@import nav from './nav.jess';
+
+/****************************************
+We can pass in values to our config,
+but more importantly, `settings` is
+externally override-able in the same way
+****************************************/
 
 @let settings {
   global {
@@ -9,8 +16,17 @@
     value: blue;
   }
 }
+/****************************************
+Stylesheets can return new values as a
+result of passing in values.
+****************************************/
 @let config: $getConfig({
   config: settings
 }).config;
 
-@include hello(${config});
+/****************************************
+We pass our new `config` object to our
+stylesheets.
+****************************************/
+@include buttons(${config});
+@include nav(${config});

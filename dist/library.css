@@ -1,4 +1,7 @@
-.hello {
-  foo: blue;
+.button {
+  color: blue;
   border-radius: 4px;
+}
+.nav {
+  color: blue;
 }
