@@ -1,22 +1,23 @@
 {
-  "name": "buteocss",
-  "version": "0.0.1",
-  "description": "Experimental Jess UI library",
-  "main": "buteo.jess",
+  "name": "theme-libary-example",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Example Jess UI library",
+  "main": "library.jess",
   "scripts": {
-    "build": "jess buteo.jess dist/buteo.css"
+    "build": "jess library.jess dist/library.css"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jesscss/buteo.git"
+    "url": "git+https://github.com/jesscss/theme-library-example.git"
   },
   "author": "Matthew Dean",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jesscss/buteo/issues"
+    "url": "https://github.com/jesscss/theme-library-example/issues"
   },
-  "homepage": "https://github.com/jesscss/buteo#readme",
+  "homepage": "https://github.com/jesscss/theme-library-example#readme",
   "devDependencies": {
-    "jess": "^1.0.6-alpha.0"
+    "jess": "^1.0.7-alpha.1"
   }
 }

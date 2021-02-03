@@ -1,0 +1,16 @@
+@import getConfig from './config.jess';
+@import hello from './hello.jess';
+
+@let settings {
+  global {
+    borderRadius: 4px;
+  }
+  colors {
+    value: blue;
+  }
+}
+@let config: $getConfig({
+  config: settings
+}).config;
+
+@include hello(${config});
